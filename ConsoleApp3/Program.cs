@@ -12,7 +12,7 @@ namespace Brogram
                 Console.WriteLine(countries[i]);
             }
             string[] sträng = Console.ReadLine().Split(" ");
-            Int64[] nummer = Array.ConvertAll(sträng, s => Int64.Parse(s)); // Använder Int64 så att man kan multiplicera större tal
+            int[] nummer = Array.ConvertAll(sträng, s => int.Parse(s)); // Använder Int64 så att man kan multiplicera större tal
 
             for (int x = 0; x < nummer.Length; x++)
             {
